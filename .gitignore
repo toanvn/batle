@@ -1,4 +1,3 @@
-node_modules
-dist
-.idea1
-.idea
+/.idea/
+/dist/
+/node_modules/

@@ -18,5 +18,11 @@ module.exports = {
     },
     plugins:[new HtmlWebpackPlugin({
         template: 'app/index.html'
-    })]
+    })],
+    devServer: {
+        inline: true,
+        contentBase: './',
+        port: 9000,
+        host: '192.168.2.218'
+    }
 }
