@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .container{
@@ -11,7 +11,7 @@ ul{
     padding: 0;
 }
 li{
-
+    list-style: none;
 }
 .languages{
     display: flex;
@@ -21,6 +21,36 @@ li{
 .languages li{
     margin: 10px;
     font-weight: bold;
-    list-style: none;
     cursor: pointer;
+}
+
+.popular-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.popular-item{
+    margin: 20px;
+    text-align: center;
+}
+.space-list-items{
+    margin-bottom: 7px;
+}
+.avatar{
+    width: 150px;
+    border-radius: 50%;
+}
+.nav{
+    display: flex;
+}
+.nav li{
+    margin-right: 15px;
+}
+.active{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #d0021b;
 }
