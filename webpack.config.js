@@ -8,7 +8,8 @@ module.exports = {
     entry: './app/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'index_bundle.js'
+        filename: 'index_bundle.js',
+        publicPath: '/'
     },
     module: {
         rules: [
@@ -23,6 +24,7 @@ module.exports = {
         inline: true,
         contentBase: './',
         port: 9000,
-        host: '192.168.2.218'
+        host: '192.168.2.218',
+        historyApiFallback: true
     }
 }
